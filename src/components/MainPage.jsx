@@ -36,10 +36,28 @@ const MainPage = () => {
   ]);
   const [hero, setHero] = useState({
     HERO1: "https://www.shadcnblocks.com/screenshots/block/hero10.jpg",
-    HERO2: "https://www.shadcnblocks.com/screenshots/block/hero10.jpg",
-    HERO3: "https://www.shadcnblocks.com/screenshots/block/hero10.jpg",
-    HERO4: "https://www.shadcnblocks.com/screenshots/block/hero10.jpg",
-    HERO5: "https://www.shadcnblocks.com/screenshots/block/hero10.jpg",
+    HERO2: "https://www.shadcnblocks.com/screenshots/block/hero2.jpg",
+    HERO3: "https://www.shadcnblocks.com/screenshots/block/hero3.jpg",
+    HERO4: "https://www.shadcnblocks.com/screenshots/block/hero4.jpg",
+    HERO5: "https://www.shadcnblocks.com/screenshots/block/hero5.jpg",
+    HERO6: "https://www.shadcnblocks.com/screenshots/block/hero6.jpg",
+    HERO9: "https://www.shadcnblocks.com/screenshots/block/hero9.jpg",
+    HERO11: "https://www.shadcnblocks.com/screenshots/block/hero11.jpg",
+    HERO13: "https://www.shadcnblocks.com/screenshots/block/hero13.jpg",
+    HERO14: "https://www.shadcnblocks.com/screenshots/block/hero14.jpg",
+    HERO15: "https://www.shadcnblocks.com/screenshots/block/hero15.jpg",
+    HERO16: "https://www.shadcnblocks.com/screenshots/block/hero16.jpg",
+    HERO18: "https://www.shadcnblocks.com/screenshots/block/hero18.jpg",
+    HERO20: "https://www.shadcnblocks.com/screenshots/block/hero20.jpg",
+    HERO21: "https://www.shadcnblocks.com/screenshots/block/hero21.jpg",
+    HERO24: "https://www.shadcnblocks.com/screenshots/block/hero24.jpg",
+    HERO25: "https://www.shadcnblocks.com/screenshots/block/hero25.jpg",
+    HERO26: "https://www.shadcnblocks.com/screenshots/block/hero26.jpg",
+    HERO27: "https://www.shadcnblocks.com/screenshots/block/hero27.jpg",
+    HERO28: "https://www.shadcnblocks.com/screenshots/block/hero28.jpg",
+    HERO29: "https://www.shadcnblocks.com/screenshots/block/hero29.jpg",
+    HERO30: "https://www.shadcnblocks.com/screenshots/block/hero30.jpg",
+    HERO31: "https://www.shadcnblocks.com/screenshots/block/hero31.jpg",
   });
   return (
     <>
@@ -65,18 +83,19 @@ const MainPage = () => {
           </div>
         </div>
         <div className="mainpage_outer_container_components">
-          <>
-            {Object.keys(hero).map((item, index) => {
-              <div className="mainpage_outer_container_components_subparts">
-                <img src={hero[item]} alt="" />
-                <div className="mainpage_outer_container_components_subparts_text">
-                  <span>{item}</span>
-                  <span className="mainpage_outer_container_components_subparts_text_color"></span>
-                </div>
-              </div>;
-              console.log(item, hero[item]);
-            })}
-          </>
+          {Object.keys(hero).map((item, index) => (
+            <div
+              className="mainpage_outer_container_components_subparts"
+              key={index}
+            >
+              <img src={hero[item]} alt="" />
+              <div className="mainpage_outer_container_components_subparts_text">
+                <span>{item}</span>
+                <span className="mainpage_outer_container_components_subparts_text_color"></span>
+              </div>
+            </div>
+            // console.log(item, hero[item]);
+          ))}
         </div>
       </div>
     </>

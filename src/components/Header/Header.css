@@ -5,8 +5,9 @@
     background-color: white;
     align-items: center;    
     justify-content: space-between;
-    position: sticky;
+    position: fixed;
     top: 0;
+    z-index: 999;
 
     .header_main_container_left {
         display: flex;
