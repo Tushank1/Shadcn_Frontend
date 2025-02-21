@@ -35,13 +35,14 @@ const MainPage = () => {
     "pro",
   ]);
   const [hero, setHero] = useState({
-    HERO1: "https://www.shadcnblocks.com/screenshots/block/hero10.jpg",
+    HERO1: "https://www.shadcnblocks.com/screenshots/block/hero1.jpg",
     HERO2: "https://www.shadcnblocks.com/screenshots/block/hero2.jpg",
     HERO3: "https://www.shadcnblocks.com/screenshots/block/hero3.jpg",
     HERO4: "https://www.shadcnblocks.com/screenshots/block/hero4.jpg",
     HERO5: "https://www.shadcnblocks.com/screenshots/block/hero5.jpg",
     HERO6: "https://www.shadcnblocks.com/screenshots/block/hero6.jpg",
     HERO9: "https://www.shadcnblocks.com/screenshots/block/hero9.jpg",
+    HERO10: "https://www.shadcnblocks.com/screenshots/block/hero10.jpg",
     HERO11: "https://www.shadcnblocks.com/screenshots/block/hero11.jpg",
     HERO13: "https://www.shadcnblocks.com/screenshots/block/hero13.jpg",
     HERO14: "https://www.shadcnblocks.com/screenshots/block/hero14.jpg",
@@ -94,7 +95,6 @@ const MainPage = () => {
                 <span className="mainpage_outer_container_components_subparts_text_color"></span>
               </div>
             </div>
-            // console.log(item, hero[item]);
           ))}
         </div>
       </div>
