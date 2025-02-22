@@ -2,7 +2,7 @@
     display: flex;
     width: 98.9vw;
     height: 1100px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 80px;
     justify-content: center;
     align-items: center;
@@ -11,14 +11,14 @@
         display: flex;
         width: 85%;
         height: 70%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         flex-direction: column;
 
         .hero1_main_inner_container_top {
             display: flex;
             width: 100%;
             height: 60px;
-            border: 1px solid red;
+            /* border: 1px solid red; */
             align-items: center;
             justify-content: space-between;
 
@@ -245,6 +245,169 @@
 
         .hero1_main_inner_container_bottom {
             display: flex;
+            width: 100%;
+            height: 100%;
+            /* border: 1px solid red; */
+            margin-top: 10px;
+            background-color: white;
+            flex-direction: row;
+
+            .hero1_main_inner_container_bottom_left {
+                display: flex;
+                width: 50%;
+                height: 100%;
+                /* border: 1px solid green; */
+                align-items: center;
+                justify-content: center;
+
+                .hero1_main_inner_container_bottom_left_outer {
+                    display: flex;
+                    width: 80%;
+                    height: 60%;
+                    /* border: 1px solid black; */
+                    flex-direction: column;
+
+                    .hero1_main_inner_container_bottom_left_outer_top {
+                        display: flex;
+                        width: 180px;
+                        height: 20px;
+                        border: 1px solid rgb(205, 205, 205);
+                        border-radius: 5px;
+
+                        .hero1_main_inner_container_bottom_left_outer_top_content {
+                            display: flex;
+                            width: 150px;
+                            height: 100%;
+                            /* border: 1px solid blue; */
+                            font-size: 13px;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                        .hero1_main_inner_container_bottom_left_outer_top_icon {
+                            display: flex;
+                            width: 30px;
+                            height: 100%;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 13px;
+                        }
+                    }
+
+                    .hero1_main_inner_container_bottom_left_outer_heading {
+                        display: flex;
+                        word-wrap: wrap;
+                        width: 100%;
+                        height: 150px;
+                        /* border: 1px solid black; */
+                        margin-top: 20px;
+                        font-size: 60px;
+                        font-weight: 650;
+                        line-height: 70px;
+                        word-spacing: -6px;
+                    }
+
+                    .hero1_main_inner_container_bottom_left_outer_content {
+                        display: flex;
+                        width: 100%;
+                        height: 100px;
+                        /* border: 1px solid red; */
+                        margin-top: 10px;
+                        font-size: 20px;
+                        color: rgb(130, 130, 130);
+                    }
+
+                    .hero1_main_inner_container_bottom_left_outer_bottom {
+                        display: flex;
+                        width: 330px;
+                        height: 50px;
+                        /* border: 1px solid black; */
+                        margin-top: 30px;
+                        flex-direction: row;
+                        align-items: center;
+                        gap: 10px;
+
+                        .hero1_main_inner_container_bottom_left_outer_bottom_left {
+                            display: flex;
+                            height: 75%;
+                            width: 170px;
+                            /* border: 1px solid black; */
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 13px;
+                            font-weight: 500;
+                            color: white;
+                            background-color: black;
+                            border-radius: 8px;
+                            cursor: pointer;
+
+                            button {
+                                cursor: pointer;
+                            }
+                        }
+
+                        .hero1_main_inner_container_bottom_left_outer_bottom_right {
+                            display: flex;
+                            height: 75%;
+                            width: 130px;
+                            border: 1px solid rgb(205, 205, 205);
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 7px;
+
+                            .hero1_main_inner_container_bottom_left_outer_bottom_right_content {
+                                display: flex;
+                                height: 100%;
+                                width: 80%;
+                                align-items: center;
+                                justify-content: center;
+                                font-size: 13px;
+                                font-weight: 500;
+                                cursor: pointer;
+                                /* border: 1px solid black;     */
+                                
+                                button {
+                                    cursor: pointer;
+                                }
+                            }
+
+                            .hero1_main_inner_container_bottom_left_outer_bottom_right_icon {
+                                display: flex;
+                                width: 20%;
+                                height: 100%;
+                                align-items: center;
+                                justify-content: center;
+                                cursor: pointer;
+                                /* border: 1px solid black; */
+                            }
+                        }
+                    }
+                }
+            }
+
+            .hero1_main_inner_container_bottom_right {
+                display: flex;
+                width: 50%;
+                height: 100%;
+                /* border: 1px solid black; */
+                align-items: center;
+                justify-content: center;
+
+                .hero1_main_inner_container_bottom_right_img {
+                    display: flex;
+                    width: 80%;
+                    height: 60%;
+                    /* border: 1px solid red; */
+                    border-radius: 9px;
+
+                    img {
+                        object-fit: cover;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 9px;
+                    }
+                }
+            }
         }
     }
 }

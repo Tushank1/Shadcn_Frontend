@@ -7,6 +7,8 @@ import { RiComputerLine } from "react-icons/ri";
 import { IoMdTabletPortrait } from "react-icons/io";
 import { AiOutlineMobile } from "react-icons/ai";
 import { MdOutlineFitScreen } from "react-icons/md";
+import { MdOutlineArrowOutward } from "react-icons/md";
+import { IoMdArrowRoundForward } from "react-icons/io";
 
 const Hero1 = () => {
   return (
@@ -72,7 +74,49 @@ const Hero1 = () => {
             </div>
           </div>
           <div className="hero1_main_inner_container_bottom">
-            <span>detail</span>
+            <div className="hero1_main_inner_container_bottom_left">
+              <div className="hero1_main_inner_container_bottom_left_outer">
+                <div className="hero1_main_inner_container_bottom_left_outer_top">
+                  <div className="hero1_main_inner_container_bottom_left_outer_top_content">
+                    <span>✨ Your Website Builder</span>
+                  </div>
+                  <div className="hero1_main_inner_container_bottom_left_outer_top_icon">
+                    <MdOutlineArrowOutward />
+                  </div>
+                </div>
+                <div className="hero1_main_inner_container_bottom_left_outer_heading">
+                  <span>Blocks Built With Shadcn & Tailwind</span>
+                </div>
+                <div className="hero1_main_inner_container_bottom_left_outer_content">
+                  <span>
+                    Finely crafted components built with React, Tailwind and
+                    Shadcn UI. Developers can copy and paste these blocks
+                    directly into their project.
+                  </span>
+                </div>
+                <div className="hero1_main_inner_container_bottom_left_outer_bottom">
+                  <div className="hero1_main_inner_container_bottom_left_outer_bottom_left">
+                    <button>Discover all Components</button>
+                  </div>
+                  <div className="hero1_main_inner_container_bottom_left_outer_bottom_right">
+                    <div className="hero1_main_inner_container_bottom_left_outer_bottom_right_content">
+                      <button>View on Github</button>
+                    </div>
+                    <div className="hero1_main_inner_container_bottom_left_outer_bottom_right_icon">
+                      <IoMdArrowRoundForward />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="hero1_main_inner_container_bottom_right">
+              <div className="hero1_main_inner_container_bottom_right_img">
+                <img
+                  src="https://www.shadcnblocks.com/images/block/placeholder-1.svg"
+                  alt=""
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
