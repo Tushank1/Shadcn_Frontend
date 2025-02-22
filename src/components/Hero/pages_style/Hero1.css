@@ -109,7 +109,137 @@
                 display: flex;
                 height: 100%;
                 width: 400px;
-                border: 1px solid blue;
+                /* border: 1px solid blue; */
+                align-items: center;
+
+                .hero1_main_inner_container_top_right_center {
+                    display: flex;
+                    width: 100%;
+                    height: 40px;
+                    /* border: 1px solid black; */
+                    align-items: center;
+
+                    .hero1_main_inner_container_top_right_center_left {
+                        display: flex;
+                        /* border: 1px solid green; */
+                        border-right: 1px solid rgb(203, 202, 202);
+                        width: 65%;
+                        height: 25px;
+                        justify-content: center;
+
+                        .hero1_main_inner_container_top_right_center_left_content {
+                            display: flex;
+                            width: 80%;
+                            height: 100%;
+                            /* border: 1px solid black; */
+                            gap: 10px;
+
+                            .hero1_main_inner_container_top_right_center_left_content_left {
+                                display: flex;
+                                width: 25%;
+                                height: 100%;
+                                border: 1px solid rgb(203, 202, 202);
+                                justify-content: center;
+                                align-items: center;
+                                background-color: white;
+                                border-radius: 7px;
+                            }
+
+                            .hero1_main_inner_container_top_right_center_left_content_right {
+                                display: flex;
+                                height: 100%;
+                                width: 70%;
+                                border: 1px solid rgb(203, 202, 202);
+                                border-radius: 6px;
+
+                                .hero1_main_inner_container_top_right_center_left_content_right_left {
+                                    display: flex;
+                                    width: 75%;
+                                    height: 100%;
+                                    /* border: 1px solid black; */
+                                    border-right: 1px solid rgb(203, 202, 202);
+
+                                    .hero1_main_inner_container_top_right_center_left_content_right_left_first {
+                                        display: flex;
+                                        height: 100%;
+                                        width: 33.3%;
+                                        /* border: 1px solid purple; */
+                                        justify-content: center;
+                                        align-items: center;
+                                        cursor: pointer;
+                                    }
+
+                                    .hero1_main_inner_container_top_right_center_left_content_right_left_second {
+                                        display: flex;
+                                        height: 100%;
+                                        width: 33.3%;
+                                        /* border: 1px solid purple; */
+                                        justify-content: center;
+                                        align-items: center;
+                                        cursor: pointer;
+                                    }
+
+                                    .hero1_main_inner_container_top_right_center_left_content_right_left_third {
+                                        display: flex;
+                                        height: 100%;
+                                        width: 33.3%;
+                                        /* border: 1px solid purple; */
+                                        justify-content: center;
+                                        align-items: center;
+                                        cursor: pointer;
+                                    }
+                                }
+
+                                .hero1_main_inner_container_top_right_center_left_content_right_right {
+                                    display: flex;
+                                    width: 25%;
+                                    height: 100%;
+                                    /* border: 1px solid blue; */
+                                    justify-content: center;
+                                    align-items: center;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+
+                    .hero1_main_inner_container_top_right_center_right {
+                        display: flex;
+                        /* border: 1px solid yellowgreen; */
+                        width: 35%;
+                        height: 25px;
+                        justify-content: center;
+
+                        .hero1_main_inner_container_top_right_center_right_content {
+                            display: flex;
+                            width: 75%;
+                            height: 100%;
+                            border: 1px solid rgb(203, 202, 202);
+                            background-color: white;
+                            border-radius: 8px;
+
+                            .hero1_main_inner_container_top_right_center_right_content_left {
+                                display: flex;
+                                width: 25%;
+                                height: 100%;
+                                /* border: 1px solid purple; */
+                                justify-content: center;
+                                align-items: center;
+                            }
+
+                            .hero1_main_inner_container_top_right_center_right_content_right {
+                                display: flex;
+                                width: 75%;
+                                height: 100%;
+                                /* border: 1px solid red; */
+                                align-items: center;
+                                justify-content: center;
+                                font-size: 13px;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
             }
         }
 
