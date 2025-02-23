@@ -1,0 +1,518 @@
+.hero3_main_outer_container {
+    display: flex;
+    width: 98.9vw;
+    height: 1100px;
+    /* border: 1px solid black; */
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+
+    .hero3_main_inner_container {
+        display: flex;
+        width: 85%;
+        height: 70%;
+        /* border: 1px solid black; */
+        flex-direction: column;
+
+        .hero3_main_inner_container_top {
+            display: flex;
+            width: 100%;
+            height: 60px;
+            /* border: 1px solid red; */
+            align-items: center;
+            justify-content: space-between;
+
+            .hero3_main_inner_container_top_left {
+                display: flex;
+                height: 100%;
+                width: 250px;
+                /* border: 1px solid green; */
+
+                .hero3_main_inner_container_top_left_left {
+                    display: flex;
+                    height: 100%;
+                    width: 50%;
+                    /* border: 1px solid black; */
+                    /* justify-content: center; */
+                    align-items: center;
+
+                    .hero3_main_inner_container_top_left_left_text {
+                        display: flex;
+                        width: 110px;
+                        height: 70%;
+                        /* border: 1px solid black; */
+                        border-right: 1px solid rgb(205, 205, 205);
+                        align-items: center;
+                        font-size: 20px;
+                        gap: 10px;
+
+                        span {
+                            display: flex;
+                            font-size: 13px;
+                            font-weight: 500;
+                            border: 1px solid #fef08a;
+                            width: 35px;
+                            height: 25px;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 15px;
+                            background-color: #fef08a;
+                            color: #92400e;
+                        }
+                    }
+                }
+
+                .hero3_main_inner_container_top_left_right {
+                    display: flex;
+                    height: 100%;
+                    width: 50%;
+                    /* border: 1px solid green; */
+                    align-items: center;
+                    justify-content: center;
+
+                    .hero3_main_inner_container_top_left_right_text {
+                        display: flex;
+                        height: 30px;
+                        width: 100px;
+                        border: 1px solid #e6e4e4;
+                        font-size: 12px;
+                        font-weight: 500;
+                        background-color: #e6e4e4;
+                        border-radius: 5px;
+                        align-items: center;
+                        justify-content: center;
+
+                        .hero3_main_inner_container_top_left_right_text_preview {
+                            display: flex;
+                            width: 58%;
+                            height: 90%;
+                            border: 1px solid whitesmoke;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: whitesmoke;
+                            border-radius: 10px;
+                        }
+
+                        .hero3_main_inner_container_top_left_right_text_code {
+                            display: flex;
+                            width: 38%;
+                            height: 90%;
+                            /* border: 1px solid black; */
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
+
+            .hero3_main_inner_container_top_right {
+                display: flex;
+                height: 100%;
+                width: 400px;
+                /* border: 1px solid blue; */
+                align-items: center;
+
+                .hero3_main_inner_container_top_right_center {
+                    display: flex;
+                    width: 100%;
+                    height: 40px;
+                    /* border: 1px solid black; */
+                    align-items: center;
+
+                    .hero3_main_inner_container_top_right_center_left {
+                        display: flex;
+                        /* border: 1px solid green; */
+                        border-right: 1px solid rgb(203, 202, 202);
+                        width: 65%;
+                        height: 25px;
+                        justify-content: center;
+
+                        .hero3_main_inner_container_top_right_center_left_content {
+                            display: flex;
+                            width: 80%;
+                            height: 100%;
+                            /* border: 1px solid black; */
+                            gap: 10px;
+
+                            .hero3_main_inner_container_top_right_center_left_content_left {
+                                display: flex;
+                                width: 25%;
+                                height: 100%;
+                                border: 1px solid rgb(203, 202, 202);
+                                justify-content: center;
+                                align-items: center;
+                                background-color: white;
+                                border-radius: 7px;
+                            }
+
+                            .hero3_main_inner_container_top_right_center_left_content_right {
+                                display: flex;
+                                height: 100%;
+                                width: 70%;
+                                border: 1px solid rgb(203, 202, 202);
+                                border-radius: 6px;
+
+                                .hero3_main_inner_container_top_right_center_left_content_right_left {
+                                    display: flex;
+                                    width: 75%;
+                                    height: 100%;
+                                    /* border: 1px solid black; */
+                                    border-right: 1px solid rgb(203, 202, 202);
+
+                                    .hero3_main_inner_container_top_right_center_left_content_right_left_first {
+                                        display: flex;
+                                        height: 100%;
+                                        width: 33.3%;
+                                        /* border: 1px solid purple; */
+                                        justify-content: center;
+                                        align-items: center;
+                                        cursor: pointer;
+                                    }
+
+                                    .hero3_main_inner_container_top_right_center_left_content_right_left_second {
+                                        display: flex;
+                                        height: 100%;
+                                        width: 33.3%;
+                                        /* border: 1px solid purple; */
+                                        justify-content: center;
+                                        align-items: center;
+                                        cursor: pointer;
+                                    }
+
+                                    .hero3_main_inner_container_top_right_center_left_content_right_left_third {
+                                        display: flex;
+                                        height: 100%;
+                                        width: 33.3%;
+                                        /* border: 1px solid purple; */
+                                        justify-content: center;
+                                        align-items: center;
+                                        cursor: pointer;
+                                    }
+                                }
+
+                                .hero3_main_inner_container_top_right_center_left_content_right_right {
+                                    display: flex;
+                                    width: 25%;
+                                    height: 100%;
+                                    /* border: 1px solid blue; */
+                                    justify-content: center;
+                                    align-items: center;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+
+                    .hero3_main_inner_container_top_right_center_right {
+                        display: flex;
+                        /* border: 1px solid yellowgreen; */
+                        width: 35%;
+                        height: 25px;
+                        justify-content: center;
+
+                        .hero3_main_inner_container_top_right_center_right_content {
+                            display: flex;
+                            width: 75%;
+                            height: 100%;
+                            border: 1px solid rgb(203, 202, 202);
+                            background-color: white;
+                            border-radius: 8px;
+
+                            .hero3_main_inner_container_top_right_center_right_content_left {
+                                display: flex;
+                                width: 25%;
+                                height: 100%;
+                                /* border: 1px solid purple; */
+                                justify-content: center;
+                                align-items: center;
+                            }
+
+                            .hero3_main_inner_container_top_right_center_right_content_right {
+                                display: flex;
+                                width: 75%;
+                                height: 100%;
+                                /* border: 1px solid red; */
+                                align-items: center;
+                                justify-content: center;
+                                font-size: 13px;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .hero3_main_inner_container_bottom {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            border: 1px solid rgb(215, 215, 215);
+            margin-top: 10px;
+            background-color: white;
+            flex-direction: row;
+            border-radius: 8px;
+
+            .hero3_main_inner_container_bottom_left {
+                display: flex;
+                width: 50%;
+                height: 100%;
+                /* border: 1px solid green; */
+                justify-content: center;
+
+                .hero3_main_inner_container_bottom_left_outer {
+                    display: flex;
+                    width: 90%;
+                    height: 75%;
+                    /* border: 1px solid black; */
+                    flex-direction: column;
+
+                    .hero3_main_inner_container_bottom_left_outer_heading {
+                        display: flex;
+                        word-wrap: wrap;
+                        width: 100%;
+                        height: 250px;
+                        /* border: 1px solid black; */
+                        margin-top: 20px;
+                        font-size: 75px;
+                        font-weight: 650;
+                        line-height: 80px;
+                        word-spacing: -6px;
+                    }
+
+                    .hero3_main_inner_container_bottom_left_outer_content {
+                        display: flex;
+                        width: 100%;
+                        height: 100px;
+                        /* border: 1px solid red; */
+                        margin-top: 10px;
+                        font-size: 20px;
+                        color: rgb(130, 130, 130);
+                    }
+
+                    .hero3_main_inner_container_bottom_left_outer_review_container {
+                        display: flex;
+                        width: 400px;
+                        height: 50px;
+                        /* border: 1px solid black; */
+                        margin-top: 20px;
+
+                        .hero3_main_inner_container_bottom_left_outer_review_container_left {
+                            display: flex;
+                            width: 50%;
+                            height: 100%;
+                            /* border: 1px solid blue; */
+                            flex-direction: row;
+
+                            .hero3_main_inner_container_bottom_left_outer_review_container_left_first {
+                                display: flex;
+                                height: 100%;
+                                width: 40px;
+                                border: 1px solid rgb(216, 216, 216);
+                                border-radius: 50%;
+                                justify-content: center;
+                                align-items: center;
+                                z-index: 22;
+
+                                img {
+                                    object-fit: contain;
+                                    width: 100%;
+                                    height: 100%;
+                                    border-radius: 50%;
+                                }
+                            }
+
+                            .hero3_main_inner_container_bottom_left_outer_review_container_left_second {
+                                display: flex;
+                                height: 100%;
+                                width: 40px;
+                                border: 1px solid rgb(216, 216, 216);
+                                border-radius: 50%;
+                                justify-content: center;
+                                align-items: center;
+
+                                img {
+                                    object-fit: contain;
+                                    width: 100%;
+                                    height: 100%;
+                                    border-radius: 50%;
+                                }
+                            }
+                            .hero3_main_inner_container_bottom_left_outer_review_container_left_third {
+                                display: flex;
+                                height: 100%;
+                                width: 40px;
+                                border: 1px solid rgb(216, 216, 216);
+                                border-radius: 50%;
+                                justify-content: center;
+                                align-items: center;
+
+                                img {
+                                    object-fit: contain;
+                                    width: 100%;
+                                    height: 100%;
+                                    border-radius: 50%;
+                                }
+                            }
+                            .hero3_main_inner_container_bottom_left_outer_review_container_left_fourth {
+                                display: flex;
+                                height: 100%;
+                                width: 40px;
+                                border: 1px solid rgb(216, 216, 216);
+                                border-radius: 50%;
+                                justify-content: center;
+                                align-items: center;
+
+                                img {
+                                    object-fit: contain;
+                                    width: 100%;
+                                    height: 100%;
+                                    border-radius: 50%;
+                                }
+                            }
+                            .hero3_main_inner_container_bottom_left_outer_review_container_left_five {
+                                display: flex;
+                                height: 100%;
+                                width: 40px;
+                                border: 1px solid rgb(216, 216, 216);
+                                border-radius: 50%;
+                                justify-content: center;
+                                align-items: center;
+
+                                img {
+                                    object-fit: contain;
+                                    width: 100%;
+                                    height: 100%;
+                                    border-radius: 50%;
+                                }
+                            }
+                        }
+
+                        .hero3_main_inner_container_bottom_left_outer_review_container_right {
+                            display: flex;
+                            width: 50%;
+                            height: 100%;
+                            /* border: 1px solid red; */
+                            flex-direction: column;
+
+                            .hero3_main_inner_container_bottom_left_outer_review_container_right_top {
+                                display: flex;
+                                width: 100%;
+                                height: 50%;
+                                /* border: 1px solid blue; */
+                                align-items: center;
+                                gap: 5px;
+                                justify-content: center;
+                                
+                                .hero3_main_inner_container_bottom_left_outer_review_container_right_top_icon {
+                                    /* color: yellow; */
+                                    /* background-color: yellow; */
+                                }
+                            }
+
+                            .hero3_main_inner_container_bottom_left_outer_review_container_right_bottom {
+                                display: flex;
+                                width: 100%;
+                                height: 50%;
+                                /* border: 1px solid green; */
+                                color: rgb(99, 99, 99);
+                                align-items: center;
+                                font-size: 17px;
+                                justify-content: center;
+                            }
+                        }
+                    }
+
+                    .hero3_main_inner_container_bottom_left_outer_bottom {
+                        display: flex;
+                        width: 250px;
+                        height: 50px;
+                        /* border: 1px solid black; */
+                        margin-top: 20px;
+                        flex-direction: row;
+                        align-items: center;
+                        gap: 10px;
+
+                        .hero3_main_inner_container_bottom_left_outer_bottom_left {
+                            display: flex;
+                            height: 75%;
+                            width: 100px;
+                            /* border: 1px solid black; */
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 13px;
+                            font-weight: 500;
+                            color: white;
+                            background-color: black;
+                            border-radius: 8px;
+                            cursor: pointer;
+
+                            button {
+                                cursor: pointer;
+                            }
+                        }
+
+                        .hero3_main_inner_container_bottom_left_outer_bottom_right {
+                            display: flex;
+                            height: 75%;
+                            width: 130px;
+                            border: 1px solid rgb(205, 205, 205);
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 7px;
+
+                            .hero3_main_inner_container_bottom_left_outer_bottom_right_content {
+                                display: flex;
+                                height: 100%;
+                                width: 80%;
+                                align-items: center;
+                                justify-content: center;
+                                font-size: 14px;
+                                font-weight: 500;
+                                cursor: pointer;
+                                /* border: 1px solid black;     */
+                                
+                                button {
+                                    cursor: pointer;
+                                }
+                            }
+
+                            .hero3_main_inner_container_bottom_left_outer_bottom_right_icon {
+                                display: flex;
+                                width: 20%;
+                                height: 100%;
+                                align-items: center;
+                                justify-content: center;
+                                cursor: pointer;
+                                /* border: 1px solid black; */
+                            }
+                        }
+                    }
+                }
+            }
+
+            .hero3_main_inner_container_bottom_right {
+                display: flex;
+                width: 50%;
+                height: 100%;
+                /* border: 1px solid black; */
+                justify-content: center;
+
+                .hero3_main_inner_container_bottom_right_img {
+                    display: flex;
+                    width: 90%;
+                    height: 75%;
+                    /* border: 1px solid red; */
+                    border-radius: 9px;
+
+                    img {
+                        object-fit: cover;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 9px;
+                    }
+                }
+            }
+        }
+    }
+}
