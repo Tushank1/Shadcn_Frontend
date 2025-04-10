@@ -60,6 +60,29 @@ const MainPage = () => {
     HERO30: "https://www.shadcnblocks.com/screenshots/block/hero30.jpg",
     HERO31: "https://www.shadcnblocks.com/screenshots/block/hero31.jpg",
   });
+
+  const [feature, setFeature] = useState({
+    FEATURE1: "https://www.shadcnblocks.com/screenshots/block/feature1.jpg",
+    FEATURE2: "https://www.shadcnblocks.com/screenshots/block/feature2.jpg",
+    FEATURE4: "https://www.shadcnblocks.com/screenshots/block/feature4.jpg",
+    FEATURE5: "https://www.shadcnblocks.com/screenshots/block/feature5.jpg",
+    FEATURE6: "https://www.shadcnblocks.com/screenshots/block/feature6.jpg",
+    FEATURE7: "https://www.shadcnblocks.com/screenshots/block/feature7.jpg",
+    FEATURE8: "https://www.shadcnblocks.com/screenshots/block/feature8.jpg",
+    FEATURE9: "https://www.shadcnblocks.com/screenshots/block/feature9.jpg",
+    FEATURE10: "https://www.shadcnblocks.com/screenshots/block/feature10.jpg",
+    FEATURE11: "https://www.shadcnblocks.com/screenshots/block/feature11.jpg",
+    FEATURE12: "https://www.shadcnblocks.com/screenshots/block/feature12.jpg",
+    FEATURE14: "https://www.shadcnblocks.com/screenshots/block/feature14.jpg",
+    FEATURE18: "https://www.shadcnblocks.com/screenshots/block/feature18.jpg",
+    FEATURE19: "https://www.shadcnblocks.com/screenshots/block/feature19.jpg",
+    FEATURE20: "https://www.shadcnblocks.com/screenshots/block/feature20.jpg",
+    FEATURE21: "https://www.shadcnblocks.com/screenshots/block/feature21.jpg",
+    FEATURE22: "https://www.shadcnblocks.com/screenshots/block/feature22.jpg",
+    FEATURE23: "https://www.shadcnblocks.com/screenshots/block/feature23.jpg",
+    FEATURE24: "https://www.shadcnblocks.com/screenshots/block/feature24.jpg",
+    FEATURE25: "https://www.shadcnblocks.com/screenshots/block/feature25.jpg",
+  });
   return (
     <>
       <Header />
@@ -84,12 +107,12 @@ const MainPage = () => {
           </div>
         </div>
         <div className="mainpage_outer_container_components">
-          {Object.keys(hero).map((item, index) => (
+          {Object.keys(feature).map((item, index) => (
             <div
               className="mainpage_outer_container_components_subparts"
               key={index}
             >
-              <img src={hero[item]} alt="" />
+              <img src={feature[item]} alt="" />
               <div className="mainpage_outer_container_components_subparts_text">
                 <span>{item}</span>
                 <span className="mainpage_outer_container_components_subparts_text_color"></span>
