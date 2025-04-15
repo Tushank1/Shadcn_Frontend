@@ -18,6 +18,8 @@ import Feature12 from "./components/Footer/pages/Feature12";
 import Feature14 from "./components/Footer/pages/Feature14";
 import Feature18 from "./components/Footer/pages/Feature18";
 import Feature19 from "./components/Footer/pages/Feature19";
+import Feature20 from "./components/Footer/pages/Feature20";
+import Feature21 from "./components/Footer/pages/Feature21";
 
 function App() {
   return (
@@ -42,6 +44,8 @@ function App() {
           <Route path="/feature14" element={<Feature14 />} />
           <Route path="/feature18" element={<Feature18 />} />
           <Route path="/feature19" element={<Feature19 />} />
+          <Route path="/feature20" element={<Feature20 />} />
+          <Route path="/feature21" element={<Feature21 />} />
         </Routes>
       </Router>
     </>
