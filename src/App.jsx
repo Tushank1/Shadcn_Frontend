@@ -20,6 +20,13 @@ import Feature18 from "./components/Footer/pages/Feature18";
 import Feature19 from "./components/Footer/pages/Feature19";
 import Feature20 from "./components/Footer/pages/Feature20";
 import Feature21 from "./components/Footer/pages/Feature21";
+import Feature22 from "./components/Footer/pages/Feature22";
+import Feature23 from "./components/Footer/pages/Feature23";
+import Feature24 from "./components/Footer/pages/Feature24";
+import Feature25 from "./components/Footer/pages/Feature25";
+import Feature26 from "./components/Footer/pages/Feature26";
+import Feature27 from "./components/Footer/pages/Feature27";
+import Feature28 from "./components/Footer/pages/Feature28";
 
 function App() {
   return (
@@ -46,6 +53,13 @@ function App() {
           <Route path="/feature19" element={<Feature19 />} />
           <Route path="/feature20" element={<Feature20 />} />
           <Route path="/feature21" element={<Feature21 />} />
+          <Route path="/feature22" element={<Feature22 />} />
+          <Route path="/feature23" element={<Feature23 />} />
+          <Route path="/feature24" element={<Feature24 />} />
+          <Route path="/feature25" element={<Feature25 />} />
+          <Route path="/feature26" element={<Feature26 />} />
+          <Route path="/feature27" element={<Feature27 />} />
+          <Route path="/feature28" element={<Feature28 />} />
         </Routes>
       </Router>
     </>
